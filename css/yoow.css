@@ -30,8 +30,8 @@ text-align:center;
 }
 
 .foto{
-width: 200px;
-height:200px;
+width: 180px;
+height:180px;
 
 border-radius:16px;
 object-fit:contain;
@@ -53,13 +53,13 @@ transition:0.3s;
 
 
 h1{
-margin:10px 0;
+margin: 10px 0;
 }
 
 .bio{
-font-size:14px;
+font-size:13px;
 color:#c9a6ff;
-margin-bottom:25px;
+margin-bottom:15px;
 }
 
 .links{
@@ -78,7 +78,7 @@ border-radius:12px;
 
 text-decoration:none;
 
-margin-bottom:12px;
+margin-bottom: 8px;
 
 border:1px solid #6a00ff;
 
