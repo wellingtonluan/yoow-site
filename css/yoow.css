@@ -1,6 +1,158 @@
- *{ 
-    margin:0;
-    font-family: Arial, sans-serif;
-    background-color: black;
-    color: aliceblue;
+body{
+
+background:linear-gradient(180deg,#0a0a0a,#1a0033);
+
+display:flex;
+justify-content:center;
+align-items:center;
+
+height:100vh;
+
+margin:0;
+
+font-family: 'Montserrat', sans-serif;
+
+color:white;
+
+}
+
+.container{
+
+width:320px;
+
+border:1px solid rgba(140,44,255,0.4);padding:30px;
+
+border-radius:18px;
+
+box-shadow:0 10px 40px rgba(106,0,255,0.4);
+
+text-align:center;
+
+}
+
+.foto{
+width: 200px;
+height:200px;
+
+border-radius:16px;
+object-fit:contain;
+
+
+border:3px solid #8c2cff;
+
+box-shadow:
+0 0 15px #8c2cff,
+0 0 40px rgba(140,44,255,0.6),
+0 10px 25px rgba(0,0,0,0.6);
+margin-bottom:20px;
+}
+
+.foto:hover{
+transform:scale(1.05);
+transition:0.3s;
+}
+
+
+h1{
+margin:10px 0;
+}
+
+.bio{
+font-size:14px;
+color:#c9a6ff;
+margin-bottom:25px;
+}
+
+.links{
+display:flex;
+flex-direction:column;
+gap:12px;
+}
+
+.links a{
+display:block;
+color:white;
+
+padding:12px;
+
+border-radius:12px;
+
+text-decoration:none;
+
+margin-bottom:12px;
+
+border:1px solid #6a00ff;
+
+box-shadow:0 5px 15px rgba(0,0,0,0.5);
+
+transition:0.25s;
+}
+
+.links a:hover{
+transform:translateY(-4px);
+
+box-shadow:0 10px 25px rgba(106,0,255,0.6);
+
+background:#0a0a0a;
+}
+
+.music-card{
+
+background:#120022;
+
+padding:12px;
+
+border-radius:14px;
+
+margin-bottom:20px;
+
+border:1px solid #6a00ff;
+
+box-shadow:0 5px 20px rgba(106,0,255,0.4);
+
+}
+
+.music-card h3{
+
+margin:0;
+font-size:18px;
+
+}
+
+.music-card p{
+
+margin:6px 0 14px 0;
+
+color:#caa8ff;
+
+font-size:14px;
+
+}
+
+.listen{
+
+display:inline-block;
+
+background:#6a00ff;
+
+color:white;
+
+padding:10px 16px;
+
+border-radius:8px;
+
+text-decoration:none;
+
+font-size:14px;
+
+transition:0.25s;
+
+}
+
+.listen:hover{
+
+background:#8c2cff;
+
+transform:scale(1.05);
+
 }
