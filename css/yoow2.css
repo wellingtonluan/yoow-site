@@ -447,6 +447,45 @@ box-shadow:0 10px 30px rgba(140,44,255,0.4);
 
 }
 
+/* CONTATO */
+.contato {
+  text-align: center;
+  margin: 60px 0;
+}
+
+.contato h2 {
+  font-size: 32px;
+  margin-bottom: 20px;
+  color: #fff;
+}
+
+.contato p {
+  font-size: 16px;
+  margin-bottom: 20px;
+  color: #aaa;
+}
+
+.email-btn {
+  display: inline-block;
+  padding: 12px 24px;
+  border-radius: 12px;
+  background: #8c2cff;
+  color: #fff;
+  font-weight: 600;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.email-btn i {
+  margin-right: 8px;
+}
+
+.email-btn:hover {
+  background: #6a00ff;
+  box-shadow: 0 8px 20px rgba(140,44,255,0.5);
+  transform: translateY(-2px);
+}
+
 /* Rodapé discreto */
 .footer-credits{
   text-align:center;
@@ -469,3 +508,4 @@ box-shadow:0 10px 30px rgba(140,44,255,0.4);
 .footer-credits i{
   margin-right:5px; /* espaçamento entre ícone e nome */
 }
+
