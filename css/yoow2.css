@@ -516,3 +516,20 @@ box-shadow:0 10px 30px rgba(140,44,255,0.4);
   margin: 20px auto; /* centraliza e dá espaço acima e abaixo */
 
 }
+
+.btn-download {
+  display: inline-block;
+  margin-top: 6px; /* distancia do texto */
+  padding: 4px 10px;
+  background: #2a2a2a; /* mais discreto */
+  color: #ccc; /* cor clara, suave */
+  font-size: 13px;
+  border-radius: 6px;
+  text-decoration: none;
+  transition: all 0.2s;
+}
+
+.btn-download:hover {
+  background: #3c3c3c; /* leve efeito ao passar o mouse */
+  color: white;
+}
