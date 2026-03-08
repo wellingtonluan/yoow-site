@@ -446,3 +446,26 @@ transform:translateY(-6px);
 box-shadow:0 10px 30px rgba(140,44,255,0.4);
 
 }
+
+/* Rodapé discreto */
+.footer-credits{
+  text-align:center;
+  font-size:12px;
+  color:#aaa;
+  margin:40px 0 20px;
+  font-family:'Space Grotesk', sans-serif;
+}
+
+.footer-credits a{
+  color:#8c2cff; /* roxo do tema */
+  text-decoration:none;
+  transition:0.3s;
+}
+
+.footer-credits a:hover{
+  color:#fff;
+}
+
+.footer-credits i{
+  margin-right:5px; /* espaçamento entre ícone e nome */
+}
