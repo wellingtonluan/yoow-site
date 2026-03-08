@@ -509,3 +509,10 @@ box-shadow:0 10px 30px rgba(140,44,255,0.4);
   margin-right:5px; /* espaçamento entre ícone e nome */
 }
 
+.wikipedia-top-img {
+  width: 100%;       /* ocupa toda a largura do container */
+  max-width: 400px;  /* ou ajuste para o tamanho que quiser */
+  display: block;
+  margin: 20px auto; /* centraliza e dá espaço acima e abaixo */
+
+}
